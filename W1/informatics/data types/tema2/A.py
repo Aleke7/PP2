@@ -1,0 +1,12 @@
+s = input()
+
+n = len(s)
+print(s[2])
+print(s[-2])
+print(s[:5])
+print(s[:n-2])
+print(s[::2])
+print(s[1::2])
+print(s[::-1])
+print(s[::-2])
+print(n)
