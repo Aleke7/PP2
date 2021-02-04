@@ -1,6 +1,9 @@
-a, b = list(map(int, input().split()))
+a, b = int(input()), int(input())
 
-a = b
-b = a
+p = a
+q = b
 
-print(a , b)
+a = q
+b = p
+
+print(a, b)
