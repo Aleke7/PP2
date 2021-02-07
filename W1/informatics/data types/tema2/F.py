@@ -1,14 +1,12 @@
-s = input()
+a = input().split()
 
-cnt = 0
-for i in range(len(s)):
-    if s[i] == 'f':
-        cnt += 1
-    if cnt == 2:
-        print(i)
-        break
+mx = 0
+k = None
+for i in a:
+    if mx < len(i):
+        mx = len(i)
+        k = i
 
-if cnt == 1:
-    print(-1)
-if cnt == 0:
-    print(-2)
+print(k)
+print(mx)
+    

@@ -1,3 +1,9 @@
-s = input().split()
+s1, s2 = input(), input()
 
-print(s[1] + " " + s[0])
+def compare(s1, s2):
+    if s1 == s2:
+        print('yes')
+    else:
+        print('no')
+
+compare(s1, s2)

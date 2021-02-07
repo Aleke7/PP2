@@ -1,3 +1,6 @@
-s = input()
+a = input()
 
-print(s[(len(s) + 1) // 2:] + s[:(len(s) + 1) // 2])
+if a == a.upper():
+    print(a.lower())
+elif a == a.lower():
+    print(a.upper())

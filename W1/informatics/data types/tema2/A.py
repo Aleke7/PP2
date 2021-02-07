@@ -1,12 +1,11 @@
-s = input()
+c = input()
 
-n = len(s)
-print(s[2])
-print(s[-2])
-print(s[:5])
-print(s[:n-2])
-print(s[::2])
-print(s[1::2])
-print(s[::-1])
-print(s[::-2])
-print(n)
+num = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+def check(c):
+    if c in num:
+        print('yes')
+    else:
+        print('no')
+
+check(c)

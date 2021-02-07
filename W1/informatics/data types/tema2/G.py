@@ -1,4 +1,6 @@
-s = input()
+a = input()
 
-print(s[:s.index('h')] + s[s.rindex('h') + 1:])
-#print(s[:s.find('h')] + s[s.rfind('h') + 1:])
+if a == a[::-1]:
+    print('yes')
+else:
+    print('no')
