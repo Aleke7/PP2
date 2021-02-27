@@ -1,0 +1,1 @@
+print(len(set.intersection(set(input().split()), set(input().split()))))
