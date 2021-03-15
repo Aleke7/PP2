@@ -1,7 +1,10 @@
 import os
 
-current_url = os.getcwd()
+os.chdir(r'C:\Users')
+os.chdir('..')
 
+current_url = os.getcwd()
+print(current_url)
 def checking(url):
     if os.path.isfile(url):
         return 'file'
